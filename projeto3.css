@@ -1,0 +1,109 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url("imagen3/imagem3.jpeg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    display: flex;
+    justify-content: center;
+    padding-top: 200px;
+    margin-bottom: 40px;
+
+}
+
+header{
+    display: flex;
+    align-items: center;
+}
+
+header h1{
+    font-family: "Oswald", sans-serif;
+    font-optical-sizing: auto;
+    font-weight:bold;
+    font-style: normal;
+    font-size: 75px;
+    font-stretch: expanded;
+    color: #541c19;
+    margin-bottom: 60px;
+}
+
+.container{
+    max-width: 960px;                                                                                         /*Faz com que o conteúdo fique centralizado mesmo estando em telas maiores*/
+    width: 100%;
+    margin: 0 auto;                                                                                         /*Para centralizar na horizontal*/
+}
+
+
+form{
+    display: flex;                                                                                          /*O display flex serve para */
+    max-width: 640px;
+    width: 100%;
+    justify-content: space-between;
+    margin-bottom: 56px;
+}
+
+form input,
+form button{
+    width: 150px;
+    height: 70px;
+    justify-content: space-between;
+    font-stretch: expanded;
+    padding: 8px;
+    border-radius: 15px;
+}
+
+
+input,
+button{
+    font-family: "Oswald", sans-serif;
+    font-size: 17px;
+    font-weight:bold;
+    font-style: normal;
+    font-stretch: expanded;
+}
+
+form button {
+    color: #ffffef;
+    font-size: 20px;
+    border: none;
+    cursor: pointer;
+    background-color: #77413d;
+}
+
+form button:hover {
+    background-color:#e0c5bb;
+    color:  #541c19;
+}
+
+table{
+    width: 100%;
+}
+
+table th{
+    border-bottom: 5px solid #ffffef;
+    font-family: "Oswald", sans-serif;
+    font-weight:bold;
+    font-style: normal;
+    font-size: 35px;
+    font-stretch: expanded;
+    padding: 16px;
+    color: #541c19;
+}
+
+table td{
+    text-align: center;
+    font-family: "Oswald", sans-serif;
+    font-weight:bold;
+    font-style: normal;
+    font-stretch: expanded;
+    font-size: 22px;
+    padding: 15px 0;
+    color: #541c19;
+    border-bottom: 3px solid rgba(0 ,0 ,0 ,0.1);
+}
+
